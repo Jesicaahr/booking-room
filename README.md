@@ -32,13 +32,21 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd booking
+  cd booking-room
 ```
 
 Install dependencies
 
 ```bash
   npm install
+```
+
+Edit config according to your database
+
+Add .env file
+
+```bash
+  touch .env
 ```
 
 Create database
