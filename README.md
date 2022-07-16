@@ -45,9 +45,17 @@ Create database
 
 ```bash
   sequelize db:create
+```
 
+Migrate database
+
+```bash
   sequelize db:migrate
+```
 
+Seeding database
+
+```bash
   sequelize db:seed:all
 ```
 
@@ -58,6 +66,7 @@ Start the server
 ```
 
 admin email: admin@mail.com
+
 admin pw: iniadmin
 
 add new room using admin account
